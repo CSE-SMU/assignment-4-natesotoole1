@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+#done td:before {
+  content:'';
+  position:absolute;
+  border-bottom:1px solid black;
+  left:0;
+  right:0;
+  top:1.5rem;
+}
+
+#done td:first-child:before, .done td:last-child:before {
+  border:none;
+}
+
+#done td {
+  position:relative;
+}
